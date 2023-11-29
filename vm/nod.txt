@@ -1,0 +1,18 @@
+input 1
+jg 1 20 9
+output 23
+exit
+input 10
+jg 10 20 18
+output 23
+exit
+mov 20 0
+mov 23 Error:put_a_natural_number
+jump 40
+sub 1 10 1
+jump 40
+jg 1 10 26
+sub 10 1 10
+jne 1 10 32
+output 1
+exit

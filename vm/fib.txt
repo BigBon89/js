@@ -1,0 +1,21 @@
+mov 70 0
+mov 71 Error:put_a_natural_number
+input 72
+jg 72 70 15
+output 71
+exit
+mov 73 1
+mov 74 1
+mov 75 2
+mov 76 0
+sub 72 75 72
+jump 53
+mov 77 0
+movi 77 74
+sum 73 74 74
+movi 73 77
+mov 78 1
+sub 72 78 72
+jg 72 76 33
+output 74
+exit
